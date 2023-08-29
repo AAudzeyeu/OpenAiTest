@@ -16,7 +16,7 @@ export default function Home() {
 
     const sendMessage = async () => {
         const openai = new OpenAI({
-            apiKey: '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',
+            apiKey: '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',
             dangerouslyAllowBrowser: true,
     })
         setLoading(true);
